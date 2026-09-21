@@ -20,3 +20,10 @@ If you are developing a production application, we recommend using TypeScript wi
 For this first step we added in a picture of a samosa and work on the CSS code. In the CSS we adjust the size of the image. We also add some basic title and text information. 
 
 <img width="1392" height="856" alt="image" src="https://github.com/user-attachments/assets/9cd72610-f591-4fec-be00-761ed69b945e" />
+
+# Step 2: Add a counter
+
+For this step we created a counter variable to count the amount of times we click the image. We also added a multiplier variable that will be used to add bonuses.
+
+<img width="1396" height="856" alt="image" src="https://github.com/user-attachments/assets/ff171a1b-3b76-4d2e-93e2-8ab058df44f1" />
+
