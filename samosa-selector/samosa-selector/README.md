@@ -27,3 +27,9 @@ For this step we created a counter variable to count the amount of times we clic
 
 <img width="1396" height="856" alt="image" src="https://github.com/user-attachments/assets/ff171a1b-3b76-4d2e-93e2-8ab058df44f1" />
 
+# Step 3: Add upgrades
+
+Added some upgrades and modifiers so you can click to earn a multiplied amount of samosas. This will use upgrade handlers to increase the count appropriately.
+
+<img width="1210" height="960" alt="image" src="https://github.com/user-attachments/assets/b76a6d71-c9bc-4e1b-9141-dca202e75835" />
+
