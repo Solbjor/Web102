@@ -33,3 +33,15 @@ Added some upgrades and modifiers so you can click to earn a multiplied amount o
 
 <img width="1210" height="960" alt="image" src="https://github.com/user-attachments/assets/b76a6d71-c9bc-4e1b-9141-dca202e75835" />
 
+# Step 4: Handle Upgrades
+
+This step lets us handle the upgrades for the samosas. Once a certain milestone is reached we can click it and the multiplier methods will generate the multiplier value based on how many samosas we are at and begin adding them onto the count variable with each new click.
+
+[!Video](https://github.com/user-attachments/assets/f9354ace-b205-42ed-8720-18c623109849)
+
+
+
+
+
+
+
