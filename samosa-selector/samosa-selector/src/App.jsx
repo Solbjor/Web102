@@ -7,6 +7,26 @@ const App = () => {
 
   const updateCount = () => setCount(count + multiplier);
 
+  const buyDoubleStuffed = () => {
+    if (count >= 10) {
+      setMultiplier(multiplier * 2);
+    }
+  }
+
+  const buyPartyPack = () => {
+    if (count >= 100) {
+      setMultiplier(multiplier * 5);
+      setCount(count - 100);
+    }
+  }
+
+  const buyFullFeast = () => {
+    if (count >= 1000) {
+      setMultiplier(multiplier * 10);
+      setCount(count - 1000);
+    }
+  }
+
   return (
     <div className="App" style={{ textAlign: 'center' }}>
       <div className="header" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -19,17 +39,17 @@ const App = () => {
         <div className="upgrade" style={{ padding: '2rem 1.5rem', width: '20rem', maxWidth: '100%', boxSizing: 'border-box' }}>
           <h3 style={{ margin: '0 0 1rem' }}>Double Samosas</h3>
           <p style={{ margin: '0 0 1.5rem', lineHeight: 1.5 }}>2x per click.</p>
-          <button>10 samosas</button>
+          <button onClick={buyDoubleStuffed}>10 samosas</button>
         </div>
         <div className="upgrade" style={{ padding: '2rem 1.5rem', width: '20rem', maxWidth: '100%', boxSizing: 'border-box' }}>
           <h3 style={{ margin: '0 0 1rem' }}>Triple Samosas</h3>
           <p style={{ margin: '0 0 1.5rem', lineHeight: 1.5 }}>3x per click.</p>
-          <button>50 samosas</button>
+          <button onClick={buyPartyPack}>100 samosas</button>
         </div>
         <div className="upgrade" style={{ padding: '2rem 1.5rem', width: '20rem', maxWidth: '100%', boxSizing: 'border-box' }}>
           <h3 style={{ margin: '0 0 1rem' }}>A Whole Lotta Samosas</h3>
           <p style={{ margin: '0 0 1.5rem', lineHeight: 1.5 }}>10x per click.</p>
-          <button>1000 samosas</button>
+          <button onClick={buyFullFeast}>1000 samosas</button>
         </div>
       </div>
     </div>
