@@ -29,7 +29,7 @@ updated CSS yet.
 Updated CSS to reflect correct or incorrect answers. Did this by adding an 'x' or a checkmark next to a small textbox with the selected ingredient to show to the user what ingredient combinations they have.
 The textboxes can later be wired with stretch features to let users type in an ingredient instead.
 
-<img width="1082" height="629" alt="image" src="https://github.com/user-attachments/assets/9e9d9a5d-f313-438c-9c3c-f02579accef8" />
+<img width="1066" height="657" alt="image" src="https://github.com/user-attachments/assets/1ebe9f35-29f0-4052-9596-8cb453a3e604" />
 
 
 
