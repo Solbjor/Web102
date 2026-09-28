@@ -18,6 +18,11 @@ Created the foundations for the logic of the drink quiz, set it to where you can
 # Step 4:
 
 
+<img width="884" height="836" alt="image" src="https://github.com/user-attachments/assets/b7555c10-98d6-4a3a-bdf3-3d691e5e02bb" />
+
+# Step 5:
+
+
 <img width="1025" height="572" alt="image" src="https://github.com/user-attachments/assets/f3420495-ddb7-4fc4-928a-beba0ebe21e9" />
 
 
