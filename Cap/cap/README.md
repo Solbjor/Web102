@@ -11,9 +11,4 @@
 
 <img width="937" height="955" alt="image" src="https://github.com/user-attachments/assets/8510f24a-8590-48ac-be60-971cc28ea2e4" />
 
-# Step 4:
-
-
-
-# Step 5:
 
