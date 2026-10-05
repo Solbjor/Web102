@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import heroImg from './assets/hero.png'
 import APIForm from './components/APIForm'
+import Gallery from './components/Gallery'
 import './App.css'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     height: "",
   });
   const [currentImage, setCurrentImage] = useState(null);
+  const [prevImages, setPrevImages] = useState([]);
 
   const callAPI = async (query) => {
     const response = await fetch(query);
@@ -26,6 +28,7 @@ function App() {
     }
     else {
       setCurrentImage(json.url);
+      setPrevImages((images) => [...images, json.url]);
       reset();
     }
   }
@@ -115,6 +118,9 @@ function App() {
           &no_ads={inputs.no_ads}
           <br></br>
         </p>
+      </div>
+      <div className="container">
+        <Gallery images={prevImages} />
       </div>
       <br></br>
     </div>
