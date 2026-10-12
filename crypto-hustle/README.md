@@ -1,16 +1,16 @@
-# React + Vite
+# Step 1:
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+For step 1 we establish the list of different crypto-currencies by linking the coingecko API to our frontend generation. The list populates
+with the relevant names.
 
-Currently, two official plugins are available:
+<img width="1165" height="932" alt="image" src="https://github.com/user-attachments/assets/94a34e00-5406-4e5b-80cc-93a94f5ceb26" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Step 2:
 
-## React Compiler
+For step 2 we add the images for each coin and moved the code for each coin's display into its own component. This allows the the aforementioned
+image to load dynamically per coin.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<img width="1101" height="967" alt="image" src="https://github.com/user-attachments/assets/0057e6f7-37fc-4c60-96fd-ba2ddd672d70" />
 
-## Expanding the Oxlint configuration
+# Step 3:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
