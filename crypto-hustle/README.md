@@ -14,3 +14,10 @@ image to load dynamically per coin.
 
 # Step 3:
 
+For this step we added a search bar that will render the name of the coin by filtering the list on the fly. We do this by creating a filtering function that is activated when input is detected in the search field.
+
+<img width="1087" height="995" alt="image" src="https://github.com/user-attachments/assets/b3fe1f9e-d7fc-4950-a803-3514aa1d746b" />
+<img width="748" height="587" alt="image" src="https://github.com/user-attachments/assets/1936804e-2df3-4315-b499-8c6262dd2f9c" />
+
+# Step 4:
+
