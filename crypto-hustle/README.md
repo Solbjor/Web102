@@ -7,6 +7,10 @@ with the relevant names.
 
 # Step 2:
 
+For step 2 we add the images for each coin and moved the code for each coin's display into its own component. This allows the the aforementioned
+image to load dynamically per coin.
+
+<img width="1101" height="967" alt="image" src="https://github.com/user-attachments/assets/0057e6f7-37fc-4c60-96fd-ba2ddd672d70" />
 
 # Step 3:
 
