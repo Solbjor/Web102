@@ -21,3 +21,6 @@ For this step we added a search bar that will render the name of the coin by fil
 
 # Step 4:
 
+For this step we add the styling to the page. I added my own bits but decided to follow along with the example's styling to better assist students who may be following the guide as well.
+
+<img width="1128" height="925" alt="image" src="https://github.com/user-attachments/assets/b3d96b12-5682-412e-bf45-7401bb16200d" />
