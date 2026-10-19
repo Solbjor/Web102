@@ -86,3 +86,9 @@ nav {
   color: #6cb4ff;
   word-break: break-all;
 }
+
+.not-found {
+  padding: 120px 20px;
+  text-align: center;
+  color: white;
+}
