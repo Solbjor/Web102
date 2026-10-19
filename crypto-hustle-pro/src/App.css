@@ -44,3 +44,45 @@ nav {
   gap: 18px;
   align-items: center;
 }
+
+.coin-detail {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 80px 20px 50px;
+  text-align: center;
+  color: white;
+}
+
+.images {
+  width: 120px;
+  height: 120px;
+}
+
+.description {
+  text-align: left;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.coin-detail table {
+  margin: 30px auto 0;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.coin-detail th,
+.coin-detail td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #444;
+}
+
+.coin-detail th {
+  width: 40%;
+  color: #aaa;
+}
+
+.coin-detail a {
+  color: #6cb4ff;
+  word-break: break-all;
+}
